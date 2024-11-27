@@ -3,6 +3,7 @@
 ## How to create a telegram bot quickly in node.js
 
 ### 1. Requirements
+#### Ubuntu 20+
 * node.js
 * node-telegram-bot-api
 * a telegram bot token
