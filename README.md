@@ -33,3 +33,7 @@ bot.on('message', (msg) => {
 ### 4. Start your bot
 You can now start your bot with node:
 `node bot.js`
+
+
+### Too lazy to do it ?
+You can check me out on https://botsoftelegram.com, message bots are free of use for a month, renewable indefinitely :)
