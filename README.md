@@ -5,7 +5,16 @@
 ### 1. Requirements
 * node.js
 * node-telegram-bot-api
+* a telegram bot token
 
+```
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.0/install.sh | bash && export NVM_DIR="$HOME/.nvm" && [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" \
+&& nvm install 22
+
+mkdir bots && cd bots && touch bot.js
+
+npm i node-telegram-bot-api
+```
 ### 2. Create a bot in Telegram
 * Find @BotFather and send him a DM:
   `/newbot`
